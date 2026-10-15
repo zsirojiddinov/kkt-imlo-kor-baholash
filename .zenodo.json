@@ -1,0 +1,29 @@
+{
+  "upload_type": "dataset",
+  "title": "Blind pairwise evaluation materials for dictionary-free spelling normalization in a rule-based Uzbek–English MT system (KKT)",
+  "creators": [
+    {
+      "name": "Sirojiddinov, Ziyoviddin",
+      "affiliation": "Kapital Sug'urta JSC, Tashkent, Uzbekistan",
+      "orcid": "0000-0002-6249-032X"
+    },
+    {
+      "name": "Xakimov, Muftah",
+      "affiliation": "National University of Uzbekistan, Tashkent, Uzbekistan",
+      "orcid": "0000-0001-6937-800X"
+    }
+  ],
+  "description": "<p>Materials for the final blind pairwise evaluation of the dictionary-free spelling normalization layer (IMLO-2, <code>KKT_IMLO_A</code>) in the rule-based Uzbek–English machine translation system KKT. The archive allows the numbers in Table 5 of the accompanying paper, Cohen's κ and Gwet's AC1 to be recomputed. All files are byte-identical copies from the project repository.</p><p><b>System state.</b> Evaluation date 2026-10-08; production build <code>2026.10.08-49</code> (code commit <code>31f5252</code>); dictionary database md5 <code>9d3adf8d</code>. Pool: development set E2119 (2,119 sentences, not a test set); 60 of the 174 sentences whose translation changed under normalization were randomly sampled.</p><p><b>Judges.</b> GPT-6 Luna (OpenAI, ChatGPT Temporary Chat) and <code>claude-opus-5-5</code> (Anthropic, Claude Code). Each judge received two orders of the same 60 pairs (positions swapped, items reshuffled), each order in a separate chat/session.</p><p><b>Files.</b> Item files (<code>kor_paket_gpt_1.csv</code>, <code>kor_paket_gpt_2.csv</code>); the unblinding key (<code>kor_kalit.json</code>, with SHA-256 committed before any judgment was collected); raw judge outputs (<code>kor_paket_*_natija.csv</code>); the judge prompt (<code>kor_korsatma_60.md</code>) and pre-registered decoding/acceptance rule (<code>kor_qoida.md</code>); the decoding script (<code>kor_dekod.py</code>, Python 3 standard library) with its output (<code>kor_hukm.json</code>) and manual reason–choice consistency classification (<code>kor_sabab_tasnif.json</code>); and a discarded first run (<code>discarded_run1/</code>), excluded before decoding for design deviations and reported as supplementary only. The README is in Uzbek.</p><p><b>Reproduction.</b> Running <code>kor_dekod.py</code> regenerates <code>kor_hukm.json</code> byte-identically. From the 3×3 GPT×Claude agreement matrix in <code>kor_hukm.json</code>, κ = 0.27 and AC1 = 0.68 are reproduced. Agreed pairs: 40 better : 3 tie : 1 worse; the acceptance criterion is met. Integrity: <code>MANIFEST.sha256</code>.</p>",
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "version": "1.0.0",
+  "language": "uzb",
+  "keywords": [
+    "machine translation",
+    "Uzbek",
+    "spelling normalization",
+    "LLM-as-a-judge",
+    "blind pairwise evaluation",
+    "KKT formalism"
+  ]
+}

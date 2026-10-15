@@ -1,0 +1,61 @@
+id,choice,reason
+N001,1,T1 keeps clause order and 'very good'; T2 scrambles ending.
+N002,1,Both garbled; T1 'ensures' and 'was quality' read slightly better.
+N003,2,T2 translates 'play' and 'engage'; T1 leaves fragments untranslated.
+N004,2,T2 renders 'shows' and 'our vision'; T1 has more untranslated fragments.
+N005,2,T2 conveys 'sees much in common'; T1 adds 'reject' and fragments.
+N006,2,T2 places 'after' correctly with 'worked'; otherwise nearly identical.
+N007,1,T1 conveys despite clause and 'grew'; T2 largely untranslated.
+N008,1,T1 gives 'best road'; T2 garbles ending into 'or is a li'.
+N009,1,T1 conveys victories defeats and points; T2 mostly untranslated fragments.
+N010,1,T1 keeps tax as object of opposition; T2 splits relation wrongly.
+N011,2,T2 'after the events' ordering slightly clearer; otherwise identical.
+N012,2,T2 'after the serious burn injuries' reads better than T1.
+N013,2,T2 translates 'victory' and 'has not been'; T1 leaves fragments.
+N014,2,T2 keeps 'one' group of office; T1 loses it to 'a to'.
+N015,2,T2 renders 'according to platforms activity'; T1 leaves 'bo yicha'.
+N016,1,T1 conveys 'after first meeting' and 'joint statement'; T2 fragments.
+N017,1,Nearly identical; T1 'are being subjected' word order more natural.
+N018,1,T1 conveys connection lost and 'added'; T2 says 'or stayed'.
+N019,2,Nearly identical; T2 avoids extra 'a bo' fragment at end.
+N020,1,T1 translates 'to the order'; T2 leaves 'buyrug'iga' untranslated.
+N021,1,T1 translates 'changes' both times; T2 leaves fragments.
+N022,1,T1 conveys connections lost after 13.00; T2 says 'or stayed'.
+N023,1,T1 keeps 'no constitution' negation; T2 garbles it as 'or the Q'.
+N024,2,T2 translates complaint and committee; T1 adds 'mita unit of measure'.
+N025,tie,Virtually identical garbled translations; only trivial word order differs.
+N026,1,T1 translates relation and 'own'; T2 adds 'whiter' and fragments.
+N027,1,T1 conveys moved and find the road; T2 mostly fragments.
+N028,2,Nearly identical; T2 'was the owner' slightly more readable.
+N029,2,T2 conveys joined protests and climate change; T1 adds 'peeled'.
+N030,1,T1 translates 'teaching'; T2 leaves 'O rgatadigan' untranslated.
+N031,1,Identical except T1 correct plural agreement 'are competing'.
+N032,tie,Virtually identical; both equally garbled with same content.
+N033,1,T1 conveys work explores first woman speaker; T2 has fragments.
+N034,2,T2 renders 'does not move' for real estate; T1 leaves fragment.
+N035,1,Nearly identical; T2 splits word into extra 'O a' fragments.
+N036,1,T1 'the shift time came' clearer than T2 fragment version.
+N037,2,T2 translates 'own' and 'development road initiatives spoke about'.
+N038,2,T2 translates 'his words' and 'has not been'; T1 fragments.
+N039,1,T1 'in the conversation moment' clearer than T2 leftover 'chog'ida'.
+N040,2,T2 correctly says 'eighth place' instead of 'eighth role'.
+N041,2,T2 translates 'network'; T1 leaves 'tarmog'ini' untranslated.
+N042,2,T2 translates 'order'; T1 leaves 'buyrug'ining' untranslated.
+N043,1,Nearly identical; T1 'are being deprived' word order more natural.
+N044,2,T2 renders 'obtained' and 'does not be'; T1 leaves fragments.
+N045,1,T1 conveys white house tried after complaint; T2 fragmented.
+N046,1,T1 translates 'in herself'; T2 leaves 'O the zida' fragment.
+N047,2,T2 translates 'educational mission helicopter'; T1 adds 'chase'.
+N048,2,T2 renders 'to the shift'; T1 keeps fragments 'an O'.
+N049,1,T1 keeps helicopter subject; T2 splits 'o'quv' into fragments.
+N050,2,T2 correctly places 'after the herbicide fear' before main clause.
+N051,1,T1 translates 'herself'; T2 leaves 'O the zini' and 'qo rquv'.
+N052,2,T2 conveys 'what we have seen' and 'unusually'; T1 fragments.
+N053,2,T2 conveys late review and planned joining; T1 fragmented.
+N054,tie,Virtually identical; only trivial placement of 'manifest' differs.
+N055,2,T2 renders 'being necessary'; T1 leaves 'bo a lishi'.
+N056,2,T2 attempts translation; T1 just copies Uzbek in uppercase.
+N057,2,T2 conveys 'if result is no' conditional; T1 garbles condition.
+N058,1,T1 translates 'conducter'; T2 leaves fragments and adds 'in the name'.
+N059,2,T2 translates 'average' and 'elementary prices'; T1 fragments.
+N060,1,T1 keeps 'loyal to struggle against terrorism'; T2 says 'loyal terrorism'.

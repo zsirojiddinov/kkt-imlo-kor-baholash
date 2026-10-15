@@ -1,0 +1,121 @@
+id,choice,reason
+N001,1,T2 moves the Batman clause to the end and breaks the sentence structure.
+N002,1,T1 renders "ensures"; T2 is more garbled with "One provide saves".
+N003,2,T2 translates "play" and "engage"; T1 leaves garbage like "Ynaysiz".
+N004,2,"T2 renders ""shows"" and ""our vision""; T1 leaves fragments untranslated."
+N005,2,"T2 conveys ""sees much in common""; T1 is mostly garbage fragments."
+N006,2,T2 places "after" correctly for "after having worked 40 years".
+N007,1,T1 conveys moderate market and price growth; T2 is fragmentary.
+N008,1,T1 renders "best way"; T2 garbles it as "or is a li".
+N009,1,T1 is partially coherent; T2 is dominated by untranslated fragments.
+N010,1,T1 keeps the income tax under IFS opposition; T2 splits the relation.
+N011,2,T2 has the more natural "after the events" ordering.
+N012,2,T2 correctly says "after serious burn injuries"; T1 misplaces "after".
+N013,2,"T2 renders ""victory"" and ""has not been""; T1 has garbage fragments."
+N014,1,T1 keeps US mission and employees linked; T2 detaches them.
+N015,2,T2 translates "according to the platforms activity"; T1 leaves fragments.
+N016,1,T1 conveys the joint statement after the meeting; T2 is fragmentary.
+N017,1,T1 has the slightly better verb order for "are being subjected".
+N018,1,"T1 renders ""added""; T2 has nonsense ""qo did pants"" and ""or stayed""."
+N019,2,T2 avoids the untranslated fragment "the lishidan" that T1 leaves.
+N020,1,"T1 translates ""order"" and reads better (""you are the guilty"")."
+N021,1,"T1 translates ""changes""; T2 leaves ""O Zgarishlar"" fragments."
+N022,1,T1 conveys contact with the helicopter after 13:00; T2 is scrambled.
+N023,1,"T1 renders ""multiple"" and ""no""; T2 garbles both."
+N024,2,T2 translates "according to the complaint" and "committee"; T1 is garbled.
+N025,tie,Near-identical translations; the reordering makes no meaningful difference.
+N026,1,T1 is more readable; T2 has garbage fragments like "ayg whiter".
+N027,1,"T1 conveys ""moved"" and ""find the road""; T2 is fragmentary."
+N028,tie,Near-identical translations; the reordering does not change the meaning.
+N029,2,"T2 conveys ""joined"" the climate protests worldwide; T1 is garbled."
+N030,1,"T1 translates ""teaching""; T2 leaves ""O rgatadigan""."
+N031,1,"T1 has the correct plural agreement ""are"" with ""players""."
+N032,1,"T2 wrongly attaches ""moved"" to the corpse; T1 keeps it apart."
+N033,1,T1 conveys first woman speaker; T2 leaves untranslated fragments.
+N034,2,T2 renders "ko'chmas" as "does not move"; T1 leaves a fragment.
+N035,1,T1 is cleaner; T2 splits the word into "O a yinchilarnig".
+N036,1,"T1 renders ""the shift time came""; T2 garbles it."
+N037,2,T2 translates "own" and "development road initiatives spoke about".
+N038,2,"T2 renders ""to his words"" and ""has not been""; T1 is garbled."
+N039,2,"T2 keeps ""founders with a conversation""; T1 loses that relation."
+N040,2,"T2 correctly says ""eighth place"" instead of ""role""."
+N041,2,"T2 translates ""network""; T1 leaves ""tarmog'ini""."
+N042,2,"T2 translates ""order""; T1 leaves ""buyrug'ining""."
+N043,1,T1 has the slightly better word order "are being deprived".
+N044,2,"T2 renders ""obtained"" and ""does not be""; T1 has fragments."
+N045,1,T1 conveys that the White House tried; T2 is garbled.
+N046,1,"T1 translates ""in herself""; T2 leaves the fragment ""O the zida""."
+N047,2,"T2 renders ""educational mission helicopter"" and ""two people""."
+N048,2,"T2 translates ""to the shift""; T1 leaves fragments."
+N049,1,T1 is intelligible; T2 splits the words into garbage.
+N050,2,"T2 correctly places ""after the herbicide fear""."
+N051,1,"T1 translates ""herself"" and ""fear""; T2 leaves fragments."
+N052,2,"T2 renders ""seen"", ""unusually"" and ""deep""; T1 is garbled."
+N053,2,"T2 conveys ""very late"" and ""game""; T1 is fragmentary."
+N054,tie,Near-identical translations; both are equally poor.
+N055,2,"T2 translates ""being necessary""; T1 leaves ""bo a lishi""."
+N056,2,"T1 just copies the Uzbek source; T2 actually translates it."
+N057,2,T2 has the correct conditional structure "If the evaluation result is no".
+N058,1,"T2 adds ""in the name"" and leaves more fragments."
+N059,2,"T2 renders ""average"" and ""elementary prices""; T1 adds ""begin""."
+N060,1,"T2 wrongly says ""loyal terrorism""; T1 keeps ""loyal ... against terrorism""."
+N061,1,"T1 correctly says ""eighth place"" instead of ""role""."
+N062,1,"T1 translates ""network""; T2 leaves ""tarmog'ini""."
+N063,1,T1 places "after" correctly for "after having worked 40 years".
+N064,1,"T1 renders ""to his words"" and ""has not been""; T2 is garbled."
+N065,1,"T1 translates ""order""; T2 leaves ""buyrug'ining""."
+N066,2,T2 is more readable; T1 has garbage fragments like "ayg whiter".
+N067,1,T1 renders "ko'chmas" as "does not move"; T2 leaves a fragment.
+N068,1,"T1 translates ""being necessary""; T2 leaves ""bo a lishi""."
+N069,2,T2 has the slightly better word order "are being deprived".
+N070,tie,Near-identical translations; the reordering makes no meaningful difference.
+N071,2,T2 conveys contact with the helicopter after 13:00; T1 is scrambled.
+N072,2,"T2 conveys ""moved"" and ""find the road""; T1 is fragmentary."
+N073,1,"T1 renders ""seen"", ""unusually"" and ""deep""; T2 is garbled."
+N074,1,"T1 renders ""shows"" and ""our vision""; T2 leaves fragments untranslated."
+N075,2,"T2 translates ""herself"" and ""fear""; T1 leaves fragments."
+N076,1,T1 translates "according to the platforms activity"; T2 leaves fragments.
+N077,1,"T1 correctly places ""after the herbicide fear""."
+N078,2,"T2 translates ""in herself""; T1 leaves the fragment ""O the zida""."
+N079,2,T2 is partially coherent; T1 is dominated by untranslated fragments.
+N080,tie,Near-identical translations; the reordering does not change the meaning.
+N081,2,"T1 adds ""in the name"" and leaves more fragments."
+N082,1,T1 avoids the untranslated fragment "the lishidan" that T2 leaves.
+N083,2,T2 keeps the income tax under IFS opposition; T1 splits the relation.
+N084,1,"T1 conveys ""joined"" the climate protests worldwide; T2 is garbled."
+N085,1,"T1 translates ""to the shift""; T2 leaves fragments."
+N086,1,T1 translates "according to the complaint" and "committee"; T2 is garbled.
+N087,1,T1 has the correct conditional structure "If the evaluation result is no".
+N088,1,T1 translates "own" and "development road initiatives spoke about".
+N089,2,T2 conveys first woman speaker; T1 leaves untranslated fragments.
+N090,1,"T1 renders ""average"" and ""elementary prices""; T2 adds ""begin""."
+N091,1,"T1 renders ""educational mission helicopter"" and ""two people""."
+N092,1,"T1 renders ""obtained"" and ""does not be""; T2 has fragments."
+N093,2,"T2 renders ""the shift time came""; T1 garbles it."
+N094,2,"T1 wrongly says ""loyal terrorism""; T2 keeps ""loyal ... against terrorism""."
+N095,2,"T2 renders ""multiple"" and ""no""; T1 garbles both."
+N096,2,T2 is cleaner; T1 splits the word into "O a yinchilarnig".
+N097,2,T2 keeps US mission and employees linked; T1 detaches them.
+N098,2,"T2 translates ""teaching""; T1 leaves ""O rgatadigan""."
+N099,1,"T1 conveys ""sees much in common""; T2 is mostly garbage fragments."
+N100,2,T2 conveys the joint statement after the meeting; T1 is fragmentary.
+N101,2,T2 conveys that the White House tried; T1 is garbled.
+N102,2,"T2 renders ""ensures""; T1 is more garbled with ""One provide saves""."
+N103,2,"T2 has the correct plural agreement ""are"" with ""players""."
+N104,1,T1 correctly says "after serious burn injuries"; T2 misplaces "after".
+N105,1,T1 translates "play" and "engage"; T2 leaves garbage like "Ynaysiz".
+N106,2,"T2 translates ""changes""; T1 leaves ""O Zgarishlar"" fragments."
+N107,1,"T1 keeps ""founders with a conversation""; T2 loses that relation."
+N108,2,"T2 renders ""best way""; T1 garbles it as ""or is a li""."
+N109,2,"T2 renders ""added""; T1 has nonsense ""qo did pants"" and ""or stayed""."
+N110,2,T2 has the slightly better verb order for "are being subjected".
+N111,2,"T2 translates ""order"" and reads better (""you are the guilty"")."
+N112,2,"T1 wrongly attaches ""moved"" to the corpse; T2 keeps it apart."
+N113,2,T2 conveys moderate market and price growth; T1 is fragmentary.
+N114,1,"T1 conveys ""very late"" and ""game""; T2 is fragmentary."
+N115,1,"T1 renders ""victory"" and ""has not been""; T2 has garbage fragments."
+N116,1,T1 has the more natural "after the events" ordering.
+N117,tie,Near-identical translations; both are equally poor.
+N118,2,T2 is intelligible; T1 splits the words into garbage.
+N119,1,"T2 just copies the Uzbek source; T1 actually translates it."
+N120,2,T1 moves the Batman clause to the end and breaks the sentence structure.

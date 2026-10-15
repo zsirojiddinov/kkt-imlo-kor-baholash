@@ -1,0 +1,886 @@
+{
+ "kalit_sha256": "0362fe54b5fade5b2a8d16527fedab895d2fb0f4130a481cabf3aa0550c00ee2",
+ "asosiy": {
+  "GPT": {
+   "sha256": {
+    "kor_paket_gpt_1_natija.csv": "c82ecd139a54adbb7e1d240f721bfb9d0ab8232a719b072f382c5a303e9fa862",
+    "kor_paket_gpt_2_natija.csv": "9acbd712da43e4fc9e2a4f69a9bef7d0705941d6520096f7706739bc9b07c80d"
+   },
+   "tartib": {
+    "1": {
+     "yaxshi": 47,
+     "teng": 0,
+     "yomon": 13
+    },
+    "2": {
+     "yaxshi": 51,
+     "teng": 0,
+     "yomon": 9
+    }
+   },
+   "ikki_tartib": {
+    "yaxshi": 42,
+    "teng": 14,
+    "yomon": 4
+   },
+   "pozitsiya": {
+    "1": 66,
+    "2": 54
+   },
+   "eng_kop_pozitsiya_%": 55.0,
+   "tartib_zid": 14,
+   "tartib_zid_%": 23.3,
+   "yaroqsiz": false,
+   "mezon_yakka": true
+  },
+  "Claude": {
+   "sha256": {
+    "kor_paket_claude_1_natija.csv": "0b0b98ccd6c70e827b93cecfe2fac83c59edfd21b45c33ff6e9628a9e45985b7",
+    "kor_paket_claude_2_natija.csv": "37b72f49ff7041c7e21c027c36c75df2e6688a5a7d162e2856040c8279e14713"
+   },
+   "tartib": {
+    "1": {
+     "yaxshi": 55,
+     "teng": 3,
+     "yomon": 2
+    },
+    "2": {
+     "yaxshi": 52,
+     "teng": 6,
+     "yomon": 2
+    }
+   },
+   "ikki_tartib": {
+    "yaxshi": 52,
+    "teng": 6,
+    "yomon": 2
+   },
+   "pozitsiya": {
+    "1": 55,
+    "2": 56,
+    "tie": 9
+   },
+   "eng_kop_pozitsiya_%": 46.7,
+   "tartib_zid": 3,
+   "tartib_zid_%": 5.0,
+   "yaroqsiz": false,
+   "mezon_yakka": true
+  }
+ },
+ "yaroqli": [
+  "GPT",
+  "Claude"
+ ],
+ "kelishuv": {
+  "juftlik_aynan": 44,
+  "element_aynan": 95,
+  "matritsa_GPT|Claude": {
+   "yaxshi|yaxshi": 40,
+   "teng|yaxshi": 10,
+   "yomon|teng": 1,
+   "yomon|yaxshi": 2,
+   "yaxshi|teng": 2,
+   "teng|teng": 3,
+   "teng|yomon": 1,
+   "yomon|yomon": 1
+  }
+ },
+ "umumiy": {
+  "yaxshi": 40,
+  "teng": 3,
+  "yomon": 1,
+  "kelishilmagan": 16
+ },
+ "mezon": {
+  "qoida": "yaxshi >= 2 x yomon VA yomon <= 6 (umumiy hukm)",
+  "natija": true
+ },
+ "tur_kesimi": {
+  "A1a": {
+   "yaxshi|yaxshi": 11,
+   "teng|yaxshi": 3,
+   "yomon|teng": 1,
+   "yaxshi|teng": 1,
+   "teng|teng": 3,
+   "yomon|yomon": 1
+  },
+  "A1a+A1b": {
+   "yaxshi|yaxshi": 29,
+   "teng|yaxshi": 7,
+   "yaxshi|teng": 1,
+   "teng|yomon": 1,
+   "yomon|yaxshi": 1
+  },
+  "A1a+A5a": {
+   "yomon|yaxshi": 1
+  }
+ },
+ "yomon": [
+  {
+   "juft": "NJ005",
+   "kalit": "2119:uzen900|840",
+   "tur": "A1a",
+   "GPT": "yomon",
+   "Claude": "teng",
+   "uz": "Mojarodan beri ichki va tartibga solish tekshiruvlari natijasida bankning har bir boshlang'ich biznesida boshqa muammolar aniqlandi , natijada milliardlab dollar jarimalar , va Federal rezerv tomonidan uning balansida misli ko'rilmagan limit paydo bo'ldi .",
+   "oldin": "And regulating the inspections was determined of the bank each another problems since the conflict internal in the result in one elementary business, appearing was a billion dollar fines, its example not seen limit as a result and by the federal reserve in the honey.",
+   "keyin": "And regulating the inspections was determined of the bank each another problems since the conflict internal in the result in one elementary business, was the appearing a billion dollar fines, its example not seen limit as a result and by the federal reserve in the honey.",
+   "element": {
+    "GPT": {
+     "N025": {
+      "choice": "1",
+      "reason": "Translation 1 has slightly more coherent ordering of the resulting fines and reserve limit."
+     },
+     "N070": {
+      "choice": "2",
+      "reason": "Translation 2 has slightly clearer ordering for the resulting billion-dollar fines."
+     }
+    },
+    "Claude": {
+     "N025": {
+      "choice": "tie",
+      "reason": "Virtually identical garbled translations; only trivial word order differs."
+     },
+     "N070": {
+      "choice": "tie",
+      "reason": "Only word order of was appearing differs; equally poor."
+     }
+    }
+   }
+  },
+  {
+   "juft": "NJ006",
+   "kalit": "2119:inkor_dev|193",
+   "tur": "A1a+A5a",
+   "GPT": "yomon",
+   "Claude": "yaxshi",
+   "uz": "Kar va yaxshi eshitmaydigan bolalarning jismoniy reabilitatsiyasiga suzish mashg'ulotlarining ta'siri",
+   "oldin": "KAR VA YAXSHI ESHITMAYDIGAN BOLALARNING JISMONIY REABILITATSIYASIGA SUZISH MASHG'ULOTLARINING TA'SIRI.",
+   "keyin": "Of children swim deaf and the good not hearing physical reabilitation the effect of busiers.",
+   "element": {
+    "GPT": {
+     "N056": {
+      "choice": "1",
+      "reason": "Translation 1 exactly preserves the original title and meaning."
+     },
+     "N119": {
+      "choice": "2",
+      "reason": "Translation 2 preserves the complete Uzbek title rather than producing distorted English."
+     }
+    },
+    "Claude": {
+     "N056": {
+      "choice": "2",
+      "reason": "T2 attempts translation; T1 just copies Uzbek in uppercase."
+     },
+     "N119": {
+      "choice": "1",
+      "reason": "Translation 2 is untranslated Uzbek; 1 attempts translation."
+     }
+    }
+   }
+  },
+  {
+   "juft": "NJ042",
+   "kalit": "2119:uzen900|681",
+   "tur": "A1a+A1b",
+   "GPT": "teng",
+   "Claude": "yomon",
+   "uz": "Bosh vazir Narendra Modi BMTda o'z fikrini quyidagicha ifodaladi : \" \" G'azablaning , terrorizmga qarshi kurashga sodiq bo'ling \"",
+   "oldin": "The head expressed in the minister Narendra Modi UN O Z thought following of G'azabla, loyal be against the terrorism to the struggle.",
+   "keyin": "The head expressed in the minister Narendra Modi UN own the thought following of G'azabla, be against the loyal terrorism to the struggle.",
+   "element": {
+    "GPT": {
+     "N060": {
+      "choice": "1",
+      "reason": "Translation 1 more clearly preserves the instruction to be loyal to the fight against terrorism."
+     },
+     "N094": {
+      "choice": "1",
+      "reason": "Translation 1 is slightly more coherent and preserves Modi's commitment-to-fighting-terrorism message."
+     }
+    },
+    "Claude": {
+     "N060": {
+      "choice": "1",
+      "reason": "T1 keeps 'loyal to struggle against terrorism'; T2 says 'loyal terrorism'."
+     },
+     "N094": {
+      "choice": "2",
+      "reason": "Translation 2 keeps be loyal to the struggle closer to source."
+     }
+    }
+   }
+  },
+  {
+   "juft": "NJ047",
+   "kalit": "2119:uzen900|608",
+   "tur": "A1a+A1b",
+   "GPT": "yomon",
+   "Claude": "yaxshi",
+   "uz": "Kirkaldining tarafdorlari sobiq darvozabon Shane Ovenga , u Fife ( Beshlik ) dagi trubalar o'rtasida bo'lb o'tgan o'zgacha mavumdan so'ng yozda Belfastga ko'chib o'tgandi , kirib boorish yo'lini topishlari kerak .",
+   "oldin": "The advocates of Kirkaldi Chib a former goalkeeper it Fife the fiveness stamp a pipe O a bo a lb an O a tgan an O a so a ng a ko to Shane Oven the rtasida zgacha the mavumdan in the summer to Belfast the O Tgandi, entered Boorish, or find the necessary the lini.",
+   "keyin": "The advocates of Kirkaldi have moved a former goalkeeper it Fife the fiveness stamp to Shane Oven in the middle of the pipes was to own after the mavumdan in the summer to Belfast, necessarily entered find Boorish the road.",
+   "element": {
+    "GPT": {
+     "N027": {
+      "choice": "2",
+      "reason": "Translation 2 retains more details about the unusual season and move to Belfast."
+     },
+     "N072": {
+      "choice": "1",
+      "reason": "Translation 1 more clearly retains the supporters' need to find a way to enter."
+     }
+    },
+    "Claude": {
+     "N027": {
+      "choice": "1",
+      "reason": "T1 conveys moved and find the road; T2 mostly fragments."
+     },
+     "N072": {
+      "choice": "2",
+      "reason": "Translation 2 conveys moving to Belfast and finding way; 1 fragmented."
+     }
+    }
+   }
+  },
+  {
+   "juft": "NJ053",
+   "kalit": "2119:uzen900|223",
+   "tur": "A1a",
+   "GPT": "yomon",
+   "Claude": "yomon",
+   "uz": "U amerikalik Valeri Brisko-Xuks tomonidan Olimpiada rekordini 48.83 ga yutib olgan poygada 51.56 soniyada sakkizinchi o'rinni egalladi .",
+   "oldin": "Occupied it an americaness the record a 48.83 a ga a 51.56 the eighth place by Valeri Brisko-Xuks the olimpiada won in the race in the second.",
+   "keyin": "Occupied it an americaness the record a 48.83 a ga a 51.56 the eighth role by Valeri Brisko-Xuks the olimpiada won in the race in the second.",
+   "element": {
+    "GPT": {
+     "N040": {
+      "choice": "2",
+      "reason": "Translation 2 correctly renders eighth “place,” rather than “role.”"
+     },
+     "N061": {
+      "choice": "1",
+      "reason": "Translation 1 preserves “eighth place”; translation 2 changes it to “eighth role.”"
+     }
+    },
+    "Claude": {
+     "N040": {
+      "choice": "2",
+      "reason": "T2 correctly says 'eighth place' instead of 'eighth role'."
+     },
+     "N061": {
+      "choice": "1",
+      "reason": "Translation 1 renders o'rinni as place; 2 wrongly says role."
+     }
+    }
+   }
+  }
+ ],
+ "sabab_tanlov_zid": {
+  "usul": "har javob qatorining `reason` matni qo'lda o'qildi (Claude, 2026-10-08, dekod bilan bir sessiyada): sabab qaysi tarjimani (1/2) yaxshi deydi -> `choice` bilan solishtirildi; tie da sabab 'teng/deyarli bir xil' bo'lsa mos. Yordamchi regex oldindan belgiladi, hukm qo'lda. Javob fayllari O'ZGARTIRILMADI.",
+  "zid_tarifi": "sabab bir tarjimani maqtaydi (yoki ikkinchisini qoralaydi), tanlov esa boshqasini ko'rsatadi; yoki sabab bir tomonni afzal deydi, tanlov tie",
+  "fayllar": {
+   "kor_paket_gpt_1_natija.csv": {
+    "qator": 60,
+    "zid": [],
+    "regex_soxta_belgi": [
+     "N021",
+     "N035",
+     "N058"
+    ],
+    "izoh": "soxta belgilar: 'Translation 1 is less corrupted …' — 1 ni maqtaydi, tanlov 1"
+   },
+   "kor_paket_gpt_2_natija.csv": {
+    "qator": 60,
+    "zid": [],
+    "regex_soxta_belgi": [
+     "N088"
+    ],
+    "izoh": "'Translation 1 is less distorted …' — tanlov 1"
+   },
+   "kor_paket_claude_1_natija.csv": {
+    "qator": 60,
+    "zid": [],
+    "regex_soxta_belgi": [],
+    "izoh": "tie 3 (N025 N032 N054) — sabab 'virtually identical'"
+   },
+   "kor_paket_claude_2_natija.csv": {
+    "qator": 60,
+    "zid": [],
+    "regex_soxta_belgi": [
+     "N064"
+    ],
+    "izoh": "'Translation 2 has many untranslated fragments; 1 is more readable' — tanlov 1. tie 6 — sabab 'nearly identical / equally poor'"
+   },
+   "kor_paket_gpt_1_natija_v0_ogish.csv": {
+    "qator": 60,
+    "zid": [],
+    "regex_soxta_belgi": [],
+    "izoh": "qo'shimcha (v0)"
+   },
+   "kor_paket_gpt_2_natija_v0_ogish.csv": {
+    "qator": 60,
+    "zid": [],
+    "regex_soxta_belgi": [],
+    "izoh": "qo'shimcha (v0); sabablarning ko'pi tarjima raqamini aytmaydi ('Better preserves …') — tanlov bilan zidlik ko'rinmaydi, lekin to'liq tekshirib bo'lmaydi"
+   },
+   "kor_paket_claude_natija_v0_ogish.csv": {
+    "qator": 120,
+    "zid": [],
+    "regex_soxta_belgi": [],
+    "izoh": "qo'shimcha (v0); 61–120 sabablari 1–60 sabablarining T1/T2 almashtirilgan nusxasi (masalan N040 -> N061, N001 -> N120) — O1 og'ishining dalili"
+   }
+  },
+  "jami_asosiy_zid": 0
+ },
+ "qoshimcha_v0": {
+  "GPT_v0": {
+   "ikki_tartib": {
+    "yaxshi": 36,
+    "teng": 22,
+    "yomon": 2
+   },
+   "tartib": {
+    "1": {
+     "yaxshi": 41,
+     "teng": 0,
+     "yomon": 19
+    },
+    "2": {
+     "yaxshi": 50,
+     "teng": 4,
+     "yomon": 6
+    }
+   },
+   "yaroqsiz": false,
+   "tartib_zid": 22,
+   "eng_kop_pozitsiya_%": 50.0,
+   "mezon_yakka": true,
+   "asosiy_bilan_juftlik_aynan": 39,
+   "asosiy_bilan_element_aynan": 93
+  },
+  "Claude_v0": {
+   "ikki_tartib": {
+    "yaxshi": 52,
+    "teng": 3,
+    "yomon": 5
+   },
+   "tartib": {
+    "1": {
+     "yaxshi": 52,
+     "teng": 3,
+     "yomon": 5
+    },
+    "2": {
+     "yaxshi": 52,
+     "teng": 3,
+     "yomon": 5
+    }
+   },
+   "yaroqsiz": false,
+   "tartib_zid": 0,
+   "eng_kop_pozitsiya_%": 47.5,
+   "mezon_yakka": true,
+   "asosiy_bilan_juftlik_aynan": 56,
+   "asosiy_bilan_element_aynan": 112
+  },
+  "umumiy_v0": {
+   "yaxshi": 36,
+   "teng": 2,
+   "yomon": 1,
+   "kelishilmagan": 21
+  },
+  "sha256": {
+   "GPT_v0": {
+    "kor_paket_gpt_1_natija_v0_ogish.csv": "fb237103205b5813df093d85cac1b4fba794c464fcff344a64584ca225e95b17",
+    "kor_paket_gpt_2_natija_v0_ogish.csv": "5378ad58e82637412fa44b13ac698b2fc06bb9d8b188d5190583a5cfb6d3b1f2"
+   },
+   "Claude_v0": {
+    "kor_paket_claude_natija_v0_ogish.csv": "7d64183a159c898e258cb31c7edb8c2017c2c667f94c5b8e553f12692c97938c"
+   }
+  }
+ },
+ "juftlik": {
+  "NJ001": {
+   "kalit": "2119:uzen900|580",
+   "tur": "A1a+A1b",
+   "GPT": "yaxshi",
+   "Claude": "yaxshi",
+   "GPT_v0": "teng",
+   "Claude_v0": "yaxshi"
+  },
+  "NJ002": {
+   "kalit": "2119:uzen900|132",
+   "tur": "A1a",
+   "GPT": "yaxshi",
+   "Claude": "yaxshi",
+   "GPT_v0": "yaxshi",
+   "Claude_v0": "yaxshi"
+  },
+  "NJ003": {
+   "kalit": "2119:uzen900|684",
+   "tur": "A1a+A1b",
+   "GPT": "teng",
+   "Claude": "yaxshi",
+   "GPT_v0": "yaxshi",
+   "Claude_v0": "yaxshi"
+  },
+  "NJ004": {
+   "kalit": "2119:inkor_dev|83",
+   "tur": "A1a",
+   "GPT": "teng",
+   "Claude": "yaxshi",
+   "GPT_v0": "yaxshi",
+   "Claude_v0": "yaxshi"
+  },
+  "NJ005": {
+   "kalit": "2119:uzen900|840",
+   "tur": "A1a",
+   "GPT": "yomon",
+   "Claude": "teng",
+   "GPT_v0": "teng",
+   "Claude_v0": "teng"
+  },
+  "NJ006": {
+   "kalit": "2119:inkor_dev|193",
+   "tur": "A1a+A5a",
+   "GPT": "yomon",
+   "Claude": "yaxshi",
+   "GPT_v0": "teng",
+   "Claude_v0": "yaxshi"
+  },
+  "NJ007": {
+   "kalit": "2119:inkor_dev|42",
+   "tur": "A1a+A1b",
+   "GPT": "teng",
+   "Claude": "yaxshi",
+   "GPT_v0": "teng",
+   "Claude_v0": "yaxshi"
+  },
+  "NJ008": {
+   "kalit": "2119:uzen900|676",
+   "tur": "A1a+A1b",
+   "GPT": "yaxshi",
+   "Claude": "yaxshi",
+   "GPT_v0": "yaxshi",
+   "Claude_v0": "yaxshi"
+  },
+  "NJ009": {
+   "kalit": "2119:uzen900|537",
+   "tur": "A1a+A1b",
+   "GPT": "yaxshi",
+   "Claude": "yaxshi",
+   "GPT_v0": "teng",
+   "Claude_v0": "yaxshi"
+  },
+  "NJ010": {
+   "kalit": "2119:uzen900|619",
+   "tur": "A1a+A1b",
+   "GPT": "yaxshi",
+   "Claude": "yaxshi",
+   "GPT_v0": "yaxshi",
+   "Claude_v0": "yaxshi"
+  },
+  "NJ011": {
+   "kalit": "2119:inkor_dev|250",
+   "tur": "A1a",
+   "GPT": "yaxshi",
+   "Claude": "teng",
+   "GPT_v0": "yomon",
+   "Claude_v0": "teng"
+  },
+  "NJ012": {
+   "kalit": "2119:uzen900|515",
+   "tur": "A1a+A1b",
+   "GPT": "teng",
+   "Claude": "yaxshi",
+   "GPT_v0": "yaxshi",
+   "Claude_v0": "yaxshi"
+  },
+  "NJ013": {
+   "kalit": "2119:uzen900|67",
+   "tur": "A1a",
+   "GPT": "yaxshi",
+   "Claude": "yaxshi",
+   "GPT_v0": "yaxshi",
+   "Claude_v0": "yaxshi"
+  },
+  "NJ014": {
+   "kalit": "2119:uzen900|534",
+   "tur": "A1a+A1b",
+   "GPT": "yaxshi",
+   "Claude": "yaxshi",
+   "GPT_v0": "yaxshi",
+   "Claude_v0": "yaxshi"
+  },
+  "NJ015": {
+   "kalit": "2119:uzen900|448",
+   "tur": "A1a",
+   "GPT": "teng",
+   "Claude": "yaxshi",
+   "GPT_v0": "teng",
+   "Claude_v0": "yomon"
+  },
+  "NJ016": {
+   "kalit": "2119:inkor_dev|109",
+   "tur": "A1a",
+   "GPT": "yaxshi",
+   "Claude": "yaxshi",
+   "GPT_v0": "yaxshi",
+   "Claude_v0": "yaxshi"
+  },
+  "NJ017": {
+   "kalit": "2119:uzen900|78",
+   "tur": "A1a",
+   "GPT": "yaxshi",
+   "Claude": "yaxshi",
+   "GPT_v0": "yaxshi",
+   "Claude_v0": "yaxshi"
+  },
+  "NJ018": {
+   "kalit": "2119:uzen900|618",
+   "tur": "A1a+A1b",
+   "GPT": "yaxshi",
+   "Claude": "teng",
+   "GPT_v0": "teng",
+   "Claude_v0": "yomon"
+  },
+  "NJ019": {
+   "kalit": "2119:uzen900|504",
+   "tur": "A1a+A1b",
+   "GPT": "yaxshi",
+   "Claude": "yaxshi",
+   "GPT_v0": "teng",
+   "Claude_v0": "yaxshi"
+  },
+  "NJ020": {
+   "kalit": "2119:uzen900|622",
+   "tur": "A1a+A1b",
+   "GPT": "yaxshi",
+   "Claude": "yaxshi",
+   "GPT_v0": "yaxshi",
+   "Claude_v0": "yaxshi"
+  },
+  "NJ021": {
+   "kalit": "2119:uzen900|195",
+   "tur": "A1a",
+   "GPT": "yaxshi",
+   "Claude": "yaxshi",
+   "GPT_v0": "yaxshi",
+   "Claude_v0": "yaxshi"
+  },
+  "NJ022": {
+   "kalit": "2119:uzen900|755",
+   "tur": "A1a",
+   "GPT": "yaxshi",
+   "Claude": "yaxshi",
+   "GPT_v0": "yaxshi",
+   "Claude_v0": "yaxshi"
+  },
+  "NJ023": {
+   "kalit": "2119:uzen900|633",
+   "tur": "A1a+A1b",
+   "GPT": "yaxshi",
+   "Claude": "yaxshi",
+   "GPT_v0": "yaxshi",
+   "Claude_v0": "yaxshi"
+  },
+  "NJ024": {
+   "kalit": "2119:uzen900|612",
+   "tur": "A1a+A1b",
+   "GPT": "yaxshi",
+   "Claude": "yaxshi",
+   "GPT_v0": "yaxshi",
+   "Claude_v0": "yaxshi"
+  },
+  "NJ025": {
+   "kalit": "2119:uzen900|579",
+   "tur": "A1a+A1b",
+   "GPT": "teng",
+   "Claude": "yaxshi",
+   "GPT_v0": "yaxshi",
+   "Claude_v0": "yaxshi"
+  },
+  "NJ026": {
+   "kalit": "2119:uzen900|603",
+   "tur": "A1a+A1b",
+   "GPT": "yaxshi",
+   "Claude": "yaxshi",
+   "GPT_v0": "yaxshi",
+   "Claude_v0": "yaxshi"
+  },
+  "NJ027": {
+   "kalit": "2119:uzen900|510",
+   "tur": "A1a+A1b",
+   "GPT": "yaxshi",
+   "Claude": "yaxshi",
+   "GPT_v0": "yaxshi",
+   "Claude_v0": "yaxshi"
+  },
+  "NJ028": {
+   "kalit": "2119:uzen900|657",
+   "tur": "A1a+A1b",
+   "GPT": "yaxshi",
+   "Claude": "yaxshi",
+   "GPT_v0": "teng",
+   "Claude_v0": "yaxshi"
+  },
+  "NJ029": {
+   "kalit": "2119:uzen900|662",
+   "tur": "A1a+A1b",
+   "GPT": "yaxshi",
+   "Claude": "yaxshi",
+   "GPT_v0": "yaxshi",
+   "Claude_v0": "yaxshi"
+  },
+  "NJ030": {
+   "kalit": "2119:uzen900|631",
+   "tur": "A1a+A1b",
+   "GPT": "yaxshi",
+   "Claude": "yaxshi",
+   "GPT_v0": "teng",
+   "Claude_v0": "yaxshi"
+  },
+  "NJ031": {
+   "kalit": "2119:uzen900|889",
+   "tur": "A1a",
+   "GPT": "yaxshi",
+   "Claude": "yaxshi",
+   "GPT_v0": "teng",
+   "Claude_v0": "yaxshi"
+  },
+  "NJ032": {
+   "kalit": "2119:uzen900|170",
+   "tur": "A1a",
+   "GPT": "yaxshi",
+   "Claude": "yaxshi",
+   "GPT_v0": "yaxshi",
+   "Claude_v0": "yaxshi"
+  },
+  "NJ033": {
+   "kalit": "2119:uzen900|66",
+   "tur": "A1a",
+   "GPT": "teng",
+   "Claude": "yaxshi",
+   "GPT_v0": "teng",
+   "Claude_v0": "yaxshi"
+  },
+  "NJ034": {
+   "kalit": "2119:uzen900|656",
+   "tur": "A1a+A1b",
+   "GPT": "yaxshi",
+   "Claude": "yaxshi",
+   "GPT_v0": "yaxshi",
+   "Claude_v0": "yaxshi"
+  },
+  "NJ035": {
+   "kalit": "2119:uzen900|623",
+   "tur": "A1a+A1b",
+   "GPT": "teng",
+   "Claude": "yaxshi",
+   "GPT_v0": "teng",
+   "Claude_v0": "yaxshi"
+  },
+  "NJ036": {
+   "kalit": "2119:uzen900|440",
+   "tur": "A1a",
+   "GPT": "yaxshi",
+   "Claude": "yaxshi",
+   "GPT_v0": "yaxshi",
+   "Claude_v0": "yaxshi"
+  },
+  "NJ037": {
+   "kalit": "2119:uzen900|508",
+   "tur": "A1a+A1b",
+   "GPT": "yaxshi",
+   "Claude": "yaxshi",
+   "GPT_v0": "yaxshi",
+   "Claude_v0": "yaxshi"
+  },
+  "NJ038": {
+   "kalit": "2119:inkor_dev|179",
+   "tur": "A1a",
+   "GPT": "teng",
+   "Claude": "teng",
+   "GPT_v0": "teng",
+   "Claude_v0": "teng"
+  },
+  "NJ039": {
+   "kalit": "2119:uzen900|547",
+   "tur": "A1a+A1b",
+   "GPT": "yaxshi",
+   "Claude": "yaxshi",
+   "GPT_v0": "teng",
+   "Claude_v0": "yaxshi"
+  },
+  "NJ040": {
+   "kalit": "2119:uzen900|564",
+   "tur": "A1a+A1b",
+   "GPT": "yaxshi",
+   "Claude": "yaxshi",
+   "GPT_v0": "yaxshi",
+   "Claude_v0": "yaxshi"
+  },
+  "NJ041": {
+   "kalit": "2119:uzen900|520",
+   "tur": "A1a",
+   "GPT": "teng",
+   "Claude": "teng",
+   "GPT_v0": "teng",
+   "Claude_v0": "yaxshi"
+  },
+  "NJ042": {
+   "kalit": "2119:uzen900|681",
+   "tur": "A1a+A1b",
+   "GPT": "teng",
+   "Claude": "yomon",
+   "GPT_v0": "teng",
+   "Claude_v0": "yomon"
+  },
+  "NJ043": {
+   "kalit": "2119:uzen900|501",
+   "tur": "A1a+A1b",
+   "GPT": "teng",
+   "Claude": "yaxshi",
+   "GPT_v0": "yaxshi",
+   "Claude_v0": "yaxshi"
+  },
+  "NJ044": {
+   "kalit": "2119:uzen900|567",
+   "tur": "A1a+A1b",
+   "GPT": "yaxshi",
+   "Claude": "yaxshi",
+   "GPT_v0": "yaxshi",
+   "Claude_v0": "yaxshi"
+  },
+  "NJ045": {
+   "kalit": "2119:uzen900|602",
+   "tur": "A1a+A1b",
+   "GPT": "yaxshi",
+   "Claude": "yaxshi",
+   "GPT_v0": "yaxshi",
+   "Claude_v0": "yaxshi"
+  },
+  "NJ046": {
+   "kalit": "2119:uzen900|566",
+   "tur": "A1a+A1b",
+   "GPT": "yaxshi",
+   "Claude": "yaxshi",
+   "GPT_v0": "yaxshi",
+   "Claude_v0": "yaxshi"
+  },
+  "NJ047": {
+   "kalit": "2119:uzen900|608",
+   "tur": "A1a+A1b",
+   "GPT": "yomon",
+   "Claude": "yaxshi",
+   "GPT_v0": "teng",
+   "Claude_v0": "yaxshi"
+  },
+  "NJ048": {
+   "kalit": "2119:uzen900|592",
+   "tur": "A1a+A1b",
+   "GPT": "yaxshi",
+   "Claude": "yaxshi",
+   "GPT_v0": "yaxshi",
+   "Claude_v0": "yaxshi"
+  },
+  "NJ049": {
+   "kalit": "2119:uzen900|607",
+   "tur": "A1a+A1b",
+   "GPT": "yaxshi",
+   "Claude": "yaxshi",
+   "GPT_v0": "teng",
+   "Claude_v0": "yaxshi"
+  },
+  "NJ050": {
+   "kalit": "2119:uzen900|565",
+   "tur": "A1a+A1b",
+   "GPT": "yaxshi",
+   "Claude": "yaxshi",
+   "GPT_v0": "yaxshi",
+   "Claude_v0": "yaxshi"
+  },
+  "NJ051": {
+   "kalit": "2119:inkor_dev|41",
+   "tur": "A1a+A1b",
+   "GPT": "yaxshi",
+   "Claude": "yaxshi",
+   "GPT_v0": "yaxshi",
+   "Claude_v0": "yaxshi"
+  },
+  "NJ052": {
+   "kalit": "2119:uzen900|610",
+   "tur": "A1a+A1b",
+   "GPT": "yaxshi",
+   "Claude": "yaxshi",
+   "GPT_v0": "yaxshi",
+   "Claude_v0": "yaxshi"
+  },
+  "NJ053": {
+   "kalit": "2119:uzen900|223",
+   "tur": "A1a",
+   "GPT": "yomon",
+   "Claude": "yomon",
+   "GPT_v0": "yomon",
+   "Claude_v0": "yomon"
+  },
+  "NJ054": {
+   "kalit": "2119:inkor_dev|264",
+   "tur": "A1a",
+   "GPT": "teng",
+   "Claude": "teng",
+   "GPT_v0": "teng",
+   "Claude_v0": "yomon"
+  },
+  "NJ055": {
+   "kalit": "2119:uzen900|571",
+   "tur": "A1a+A1b",
+   "GPT": "yaxshi",
+   "Claude": "yaxshi",
+   "GPT_v0": "teng",
+   "Claude_v0": "yaxshi"
+  },
+  "NJ056": {
+   "kalit": "2119:uzen900|41",
+   "tur": "A1a",
+   "GPT": "yaxshi",
+   "Claude": "yaxshi",
+   "GPT_v0": "yaxshi",
+   "Claude_v0": "yaxshi"
+  },
+  "NJ057": {
+   "kalit": "2119:uzen900|574",
+   "tur": "A1a+A1b",
+   "GPT": "yaxshi",
+   "Claude": "yaxshi",
+   "GPT_v0": "teng",
+   "Claude_v0": "yaxshi"
+  },
+  "NJ058": {
+   "kalit": "2119:uzen900|310",
+   "tur": "A1a",
+   "GPT": "yaxshi",
+   "Claude": "yaxshi",
+   "GPT_v0": "yaxshi",
+   "Claude_v0": "yaxshi"
+  },
+  "NJ059": {
+   "kalit": "2119:uzen900|513",
+   "tur": "A1a+A1b",
+   "GPT": "yaxshi",
+   "Claude": "yaxshi",
+   "GPT_v0": "yaxshi",
+   "Claude_v0": "yaxshi"
+  },
+  "NJ060": {
+   "kalit": "2119:inkor_dev|78",
+   "tur": "A1a+A1b",
+   "GPT": "teng",
+   "Claude": "yaxshi",
+   "GPT_v0": "yaxshi",
+   "Claude_v0": "yaxshi"
+  }
+ }
+}

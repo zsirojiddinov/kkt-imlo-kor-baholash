@@ -1,0 +1,57 @@
+{
+ "usul": "har javob qatorining `reason` matni qo'lda o'qildi (Claude, 2026-10-08, dekod bilan bir sessiyada): sabab qaysi tarjimani (1/2) yaxshi deydi -> `choice` bilan solishtirildi; tie da sabab 'teng/deyarli bir xil' bo'lsa mos. Yordamchi regex oldindan belgiladi, hukm qo'lda. Javob fayllari O'ZGARTIRILMADI.",
+ "zid_tarifi": "sabab bir tarjimani maqtaydi (yoki ikkinchisini qoralaydi), tanlov esa boshqasini ko'rsatadi; yoki sabab bir tomonni afzal deydi, tanlov tie",
+ "fayllar": {
+  "kor_paket_gpt_1_natija.csv": {
+   "qator": 60,
+   "zid": [],
+   "regex_soxta_belgi": [
+    "N021",
+    "N035",
+    "N058"
+   ],
+   "izoh": "soxta belgilar: 'Translation 1 is less corrupted …' — 1 ni maqtaydi, tanlov 1"
+  },
+  "kor_paket_gpt_2_natija.csv": {
+   "qator": 60,
+   "zid": [],
+   "regex_soxta_belgi": [
+    "N088"
+   ],
+   "izoh": "'Translation 1 is less distorted …' — tanlov 1"
+  },
+  "kor_paket_claude_1_natija.csv": {
+   "qator": 60,
+   "zid": [],
+   "regex_soxta_belgi": [],
+   "izoh": "tie 3 (N025 N032 N054) — sabab 'virtually identical'"
+  },
+  "kor_paket_claude_2_natija.csv": {
+   "qator": 60,
+   "zid": [],
+   "regex_soxta_belgi": [
+    "N064"
+   ],
+   "izoh": "'Translation 2 has many untranslated fragments; 1 is more readable' — tanlov 1. tie 6 — sabab 'nearly identical / equally poor'"
+  },
+  "kor_paket_gpt_1_natija_v0_ogish.csv": {
+   "qator": 60,
+   "zid": [],
+   "regex_soxta_belgi": [],
+   "izoh": "qo'shimcha (v0)"
+  },
+  "kor_paket_gpt_2_natija_v0_ogish.csv": {
+   "qator": 60,
+   "zid": [],
+   "regex_soxta_belgi": [],
+   "izoh": "qo'shimcha (v0); sabablarning ko'pi tarjima raqamini aytmaydi ('Better preserves …') — tanlov bilan zidlik ko'rinmaydi, lekin to'liq tekshirib bo'lmaydi"
+  },
+  "kor_paket_claude_natija_v0_ogish.csv": {
+   "qator": 120,
+   "zid": [],
+   "regex_soxta_belgi": [],
+   "izoh": "qo'shimcha (v0); 61–120 sabablari 1–60 sabablarining T1/T2 almashtirilgan nusxasi (masalan N040 -> N061, N001 -> N120) — O1 og'ishining dalili"
+  }
+ },
+ "jami_asosiy_zid": 0
+}

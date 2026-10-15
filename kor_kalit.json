@@ -1,0 +1,1129 @@
+{
+ "meta": {
+  "seed": 2736072208,
+  "seed_manba": "os.urandom (paket paytida)",
+  "hovuz": 174,
+  "tanlov": 60,
+  "min_oraliq": 10,
+  "gpt_bolak": 60,
+  "tomon": {
+   "oldin": "normallashtirishsiz",
+   "keyin": "normallashtirish bilan"
+  },
+  "manba_sha256": "dca5ea55cce37ad671887e026fe24fcc6abaccebad9afd3cb6d912c54d18ad94",
+  "korsatma_manba": "analysis/oldin-keyin-1/korsatma.md",
+  "paket_manba_matni": "norm (normallashgan o'zbekcha matn)",
+  "sha256": {
+   "kor_paket.csv": "40958d959efe0bfaa7be7d4f4baeaf53cc096441b8ee569fdd8b1c2a04d0562a",
+   "kor_korsatma.md": "e37f4dfe74285d21303ddb082cb42324f1b33c464a113078dd1177f3bf638e16",
+   "kor_paket_gpt_1.csv": "6607477ea87e93c256850115951f72badfcce0681165b9af0060b1b3f499cbdb",
+   "kor_paket_gpt_2.csv": "231940081a28e2f7967a6021b9f2640c63fc23072a35d1c25f2db21645973383"
+  },
+  "tanlangan": [
+   "2119:inkor_dev|109",
+   "2119:inkor_dev|179",
+   "2119:inkor_dev|193",
+   "2119:inkor_dev|250",
+   "2119:inkor_dev|264",
+   "2119:inkor_dev|41",
+   "2119:inkor_dev|42",
+   "2119:inkor_dev|78",
+   "2119:inkor_dev|83",
+   "2119:uzen900|132",
+   "2119:uzen900|170",
+   "2119:uzen900|195",
+   "2119:uzen900|223",
+   "2119:uzen900|310",
+   "2119:uzen900|41",
+   "2119:uzen900|440",
+   "2119:uzen900|448",
+   "2119:uzen900|501",
+   "2119:uzen900|504",
+   "2119:uzen900|508",
+   "2119:uzen900|510",
+   "2119:uzen900|513",
+   "2119:uzen900|515",
+   "2119:uzen900|520",
+   "2119:uzen900|534",
+   "2119:uzen900|537",
+   "2119:uzen900|547",
+   "2119:uzen900|564",
+   "2119:uzen900|565",
+   "2119:uzen900|566",
+   "2119:uzen900|567",
+   "2119:uzen900|571",
+   "2119:uzen900|574",
+   "2119:uzen900|579",
+   "2119:uzen900|580",
+   "2119:uzen900|592",
+   "2119:uzen900|602",
+   "2119:uzen900|603",
+   "2119:uzen900|607",
+   "2119:uzen900|608",
+   "2119:uzen900|610",
+   "2119:uzen900|612",
+   "2119:uzen900|618",
+   "2119:uzen900|619",
+   "2119:uzen900|622",
+   "2119:uzen900|623",
+   "2119:uzen900|631",
+   "2119:uzen900|633",
+   "2119:uzen900|656",
+   "2119:uzen900|657",
+   "2119:uzen900|66",
+   "2119:uzen900|662",
+   "2119:uzen900|67",
+   "2119:uzen900|676",
+   "2119:uzen900|681",
+   "2119:uzen900|684",
+   "2119:uzen900|755",
+   "2119:uzen900|78",
+   "2119:uzen900|840",
+   "2119:uzen900|889"
+  ],
+  "baholovchilar": "GPT (kor_paket_gpt_1.csv + kor_paket_gpt_2.csv) · Claude (kor_paket.csv to'liq, yangi sessiya / subagent, faqat paket + ko'rsatma) — ko'rsatma BIR XIL",
+  "juftlik_hukmi": "ikkala tartibda bir xil tomon -> o'sha (KEYIN = YAXSHI, OLDIN = YOMON); farq -> TENG"
+ },
+ "qator": {
+  "N001": {
+   "juft": "NJ004",
+   "kalit": "2119:inkor_dev|83",
+   "turlar": [
+    "A1a"
+   ],
+   "1": "keyin"
+  },
+  "N002": {
+   "juft": "NJ036",
+   "kalit": "2119:uzen900|440",
+   "turlar": [
+    "A1a"
+   ],
+   "1": "keyin"
+  },
+  "N003": {
+   "juft": "NJ027",
+   "kalit": "2119:uzen900|510",
+   "turlar": [
+    "A1a",
+    "A1b"
+   ],
+   "1": "oldin"
+  },
+  "N004": {
+   "juft": "NJ025",
+   "kalit": "2119:uzen900|579",
+   "turlar": [
+    "A1a",
+    "A1b"
+   ],
+   "1": "oldin"
+  },
+  "N005": {
+   "juft": "NJ059",
+   "kalit": "2119:uzen900|513",
+   "turlar": [
+    "A1a",
+    "A1b"
+   ],
+   "1": "oldin"
+  },
+  "N006": {
+   "juft": "NJ058",
+   "kalit": "2119:uzen900|310",
+   "turlar": [
+    "A1a"
+   ],
+   "1": "oldin"
+  },
+  "N007": {
+   "juft": "NJ009",
+   "kalit": "2119:uzen900|537",
+   "turlar": [
+    "A1a",
+    "A1b"
+   ],
+   "1": "keyin"
+  },
+  "N008": {
+   "juft": "NJ023",
+   "kalit": "2119:uzen900|633",
+   "turlar": [
+    "A1a",
+    "A1b"
+   ],
+   "1": "keyin"
+  },
+  "N009": {
+   "juft": "NJ052",
+   "kalit": "2119:uzen900|610",
+   "turlar": [
+    "A1a",
+    "A1b"
+   ],
+   "1": "keyin"
+  },
+  "N010": {
+   "juft": "NJ021",
+   "kalit": "2119:uzen900|195",
+   "turlar": [
+    "A1a"
+   ],
+   "1": "keyin"
+  },
+  "N011": {
+   "juft": "NJ017",
+   "kalit": "2119:uzen900|78",
+   "turlar": [
+    "A1a"
+   ],
+   "1": "oldin"
+  },
+  "N012": {
+   "juft": "NJ032",
+   "kalit": "2119:uzen900|170",
+   "turlar": [
+    "A1a"
+   ],
+   "1": "oldin"
+  },
+  "N013": {
+   "juft": "NJ037",
+   "kalit": "2119:uzen900|508",
+   "turlar": [
+    "A1a",
+    "A1b"
+   ],
+   "1": "oldin"
+  },
+  "N014": {
+   "juft": "NJ018",
+   "kalit": "2119:uzen900|618",
+   "turlar": [
+    "A1a",
+    "A1b"
+   ],
+   "1": "oldin"
+  },
+  "N015": {
+   "juft": "NJ012",
+   "kalit": "2119:uzen900|515",
+   "turlar": [
+    "A1a",
+    "A1b"
+   ],
+   "1": "oldin"
+  },
+  "N016": {
+   "juft": "NJ055",
+   "kalit": "2119:uzen900|571",
+   "turlar": [
+    "A1a",
+    "A1b"
+   ],
+   "1": "keyin"
+  },
+  "N017": {
+   "juft": "NJ041",
+   "kalit": "2119:uzen900|520",
+   "turlar": [
+    "A1a"
+   ],
+   "1": "keyin"
+  },
+  "N018": {
+   "juft": "NJ046",
+   "kalit": "2119:uzen900|566",
+   "turlar": [
+    "A1a",
+    "A1b"
+   ],
+   "1": "keyin"
+  },
+  "N019": {
+   "juft": "NJ060",
+   "kalit": "2119:inkor_dev|78",
+   "turlar": [
+    "A1a",
+    "A1b"
+   ],
+   "1": "oldin"
+  },
+  "N020": {
+   "juft": "NJ033",
+   "kalit": "2119:uzen900|66",
+   "turlar": [
+    "A1a"
+   ],
+   "1": "keyin"
+  },
+  "N021": {
+   "juft": "NJ051",
+   "kalit": "2119:inkor_dev|41",
+   "turlar": [
+    "A1a",
+    "A1b"
+   ],
+   "1": "keyin"
+  },
+  "N022": {
+   "juft": "NJ040",
+   "kalit": "2119:uzen900|564",
+   "turlar": [
+    "A1a",
+    "A1b"
+   ],
+   "1": "keyin"
+  },
+  "N023": {
+   "juft": "NJ028",
+   "kalit": "2119:uzen900|657",
+   "turlar": [
+    "A1a",
+    "A1b"
+   ],
+   "1": "keyin"
+  },
+  "N024": {
+   "juft": "NJ020",
+   "kalit": "2119:uzen900|622",
+   "turlar": [
+    "A1a",
+    "A1b"
+   ],
+   "1": "oldin"
+  },
+  "N025": {
+   "juft": "NJ005",
+   "kalit": "2119:uzen900|840",
+   "turlar": [
+    "A1a"
+   ],
+   "1": "oldin"
+  },
+  "N026": {
+   "juft": "NJ035",
+   "kalit": "2119:uzen900|623",
+   "turlar": [
+    "A1a",
+    "A1b"
+   ],
+   "1": "keyin"
+  },
+  "N027": {
+   "juft": "NJ047",
+   "kalit": "2119:uzen900|608",
+   "turlar": [
+    "A1a",
+    "A1b"
+   ],
+   "1": "keyin"
+  },
+  "N028": {
+   "juft": "NJ038",
+   "kalit": "2119:inkor_dev|179",
+   "turlar": [
+    "A1a"
+   ],
+   "1": "oldin"
+  },
+  "N029": {
+   "juft": "NJ001",
+   "kalit": "2119:uzen900|580",
+   "turlar": [
+    "A1a",
+    "A1b"
+   ],
+   "1": "oldin"
+  },
+  "N030": {
+   "juft": "NJ034",
+   "kalit": "2119:uzen900|656",
+   "turlar": [
+    "A1a",
+    "A1b"
+   ],
+   "1": "keyin"
+  },
+  "N031": {
+   "juft": "NJ056",
+   "kalit": "2119:uzen900|41",
+   "turlar": [
+    "A1a"
+   ],
+   "1": "keyin"
+  },
+  "N032": {
+   "juft": "NJ054",
+   "kalit": "2119:inkor_dev|264",
+   "turlar": [
+    "A1a"
+   ],
+   "1": "oldin"
+  },
+  "N033": {
+   "juft": "NJ026",
+   "kalit": "2119:uzen900|603",
+   "turlar": [
+    "A1a",
+    "A1b"
+   ],
+   "1": "keyin"
+  },
+  "N034": {
+   "juft": "NJ007",
+   "kalit": "2119:inkor_dev|42",
+   "turlar": [
+    "A1a",
+    "A1b"
+   ],
+   "1": "oldin"
+  },
+  "N035": {
+   "juft": "NJ049",
+   "kalit": "2119:uzen900|607",
+   "turlar": [
+    "A1a",
+    "A1b"
+   ],
+   "1": "keyin"
+  },
+  "N036": {
+   "juft": "NJ029",
+   "kalit": "2119:uzen900|662",
+   "turlar": [
+    "A1a",
+    "A1b"
+   ],
+   "1": "keyin"
+  },
+  "N037": {
+   "juft": "NJ008",
+   "kalit": "2119:uzen900|676",
+   "turlar": [
+    "A1a",
+    "A1b"
+   ],
+   "1": "oldin"
+  },
+  "N038": {
+   "juft": "NJ003",
+   "kalit": "2119:uzen900|684",
+   "turlar": [
+    "A1a",
+    "A1b"
+   ],
+   "1": "oldin"
+  },
+  "N039": {
+   "juft": "NJ015",
+   "kalit": "2119:uzen900|448",
+   "turlar": [
+    "A1a"
+   ],
+   "1": "keyin"
+  },
+  "N040": {
+   "juft": "NJ053",
+   "kalit": "2119:uzen900|223",
+   "turlar": [
+    "A1a"
+   ],
+   "1": "keyin"
+  },
+  "N041": {
+   "juft": "NJ022",
+   "kalit": "2119:uzen900|755",
+   "turlar": [
+    "A1a"
+   ],
+   "1": "oldin"
+  },
+  "N042": {
+   "juft": "NJ013",
+   "kalit": "2119:uzen900|67",
+   "turlar": [
+    "A1a"
+   ],
+   "1": "oldin"
+  },
+  "N043": {
+   "juft": "NJ031",
+   "kalit": "2119:uzen900|889",
+   "turlar": [
+    "A1a"
+   ],
+   "1": "keyin"
+  },
+  "N044": {
+   "juft": "NJ019",
+   "kalit": "2119:uzen900|504",
+   "turlar": [
+    "A1a",
+    "A1b"
+   ],
+   "1": "oldin"
+  },
+  "N045": {
+   "juft": "NJ010",
+   "kalit": "2119:uzen900|619",
+   "turlar": [
+    "A1a",
+    "A1b"
+   ],
+   "1": "keyin"
+  },
+  "N046": {
+   "juft": "NJ045",
+   "kalit": "2119:uzen900|602",
+   "turlar": [
+    "A1a",
+    "A1b"
+   ],
+   "1": "keyin"
+  },
+  "N047": {
+   "juft": "NJ044",
+   "kalit": "2119:uzen900|567",
+   "turlar": [
+    "A1a",
+    "A1b"
+   ],
+   "1": "oldin"
+  },
+  "N048": {
+   "juft": "NJ030",
+   "kalit": "2119:uzen900|631",
+   "turlar": [
+    "A1a",
+    "A1b"
+   ],
+   "1": "oldin"
+  },
+  "N049": {
+   "juft": "NJ050",
+   "kalit": "2119:uzen900|565",
+   "turlar": [
+    "A1a",
+    "A1b"
+   ],
+   "1": "keyin"
+  },
+  "N050": {
+   "juft": "NJ002",
+   "kalit": "2119:uzen900|132",
+   "turlar": [
+    "A1a"
+   ],
+   "1": "oldin"
+  },
+  "N051": {
+   "juft": "NJ039",
+   "kalit": "2119:uzen900|547",
+   "turlar": [
+    "A1a",
+    "A1b"
+   ],
+   "1": "keyin"
+  },
+  "N052": {
+   "juft": "NJ024",
+   "kalit": "2119:uzen900|612",
+   "turlar": [
+    "A1a",
+    "A1b"
+   ],
+   "1": "oldin"
+  },
+  "N053": {
+   "juft": "NJ048",
+   "kalit": "2119:uzen900|592",
+   "turlar": [
+    "A1a",
+    "A1b"
+   ],
+   "1": "oldin"
+  },
+  "N054": {
+   "juft": "NJ011",
+   "kalit": "2119:inkor_dev|250",
+   "turlar": [
+    "A1a"
+   ],
+   "1": "oldin"
+  },
+  "N055": {
+   "juft": "NJ043",
+   "kalit": "2119:uzen900|501",
+   "turlar": [
+    "A1a",
+    "A1b"
+   ],
+   "1": "oldin"
+  },
+  "N056": {
+   "juft": "NJ006",
+   "kalit": "2119:inkor_dev|193",
+   "turlar": [
+    "A1a",
+    "A5a"
+   ],
+   "1": "oldin"
+  },
+  "N057": {
+   "juft": "NJ016",
+   "kalit": "2119:inkor_dev|109",
+   "turlar": [
+    "A1a"
+   ],
+   "1": "oldin"
+  },
+  "N058": {
+   "juft": "NJ057",
+   "kalit": "2119:uzen900|574",
+   "turlar": [
+    "A1a",
+    "A1b"
+   ],
+   "1": "keyin"
+  },
+  "N059": {
+   "juft": "NJ014",
+   "kalit": "2119:uzen900|534",
+   "turlar": [
+    "A1a",
+    "A1b"
+   ],
+   "1": "oldin"
+  },
+  "N060": {
+   "juft": "NJ042",
+   "kalit": "2119:uzen900|681",
+   "turlar": [
+    "A1a",
+    "A1b"
+   ],
+   "1": "oldin"
+  },
+  "N061": {
+   "juft": "NJ053",
+   "kalit": "2119:uzen900|223",
+   "turlar": [
+    "A1a"
+   ],
+   "1": "oldin"
+  },
+  "N062": {
+   "juft": "NJ022",
+   "kalit": "2119:uzen900|755",
+   "turlar": [
+    "A1a"
+   ],
+   "1": "keyin"
+  },
+  "N063": {
+   "juft": "NJ058",
+   "kalit": "2119:uzen900|310",
+   "turlar": [
+    "A1a"
+   ],
+   "1": "keyin"
+  },
+  "N064": {
+   "juft": "NJ003",
+   "kalit": "2119:uzen900|684",
+   "turlar": [
+    "A1a",
+    "A1b"
+   ],
+   "1": "keyin"
+  },
+  "N065": {
+   "juft": "NJ013",
+   "kalit": "2119:uzen900|67",
+   "turlar": [
+    "A1a"
+   ],
+   "1": "keyin"
+  },
+  "N066": {
+   "juft": "NJ035",
+   "kalit": "2119:uzen900|623",
+   "turlar": [
+    "A1a",
+    "A1b"
+   ],
+   "1": "oldin"
+  },
+  "N067": {
+   "juft": "NJ007",
+   "kalit": "2119:inkor_dev|42",
+   "turlar": [
+    "A1a",
+    "A1b"
+   ],
+   "1": "keyin"
+  },
+  "N068": {
+   "juft": "NJ043",
+   "kalit": "2119:uzen900|501",
+   "turlar": [
+    "A1a",
+    "A1b"
+   ],
+   "1": "keyin"
+  },
+  "N069": {
+   "juft": "NJ031",
+   "kalit": "2119:uzen900|889",
+   "turlar": [
+    "A1a"
+   ],
+   "1": "oldin"
+  },
+  "N070": {
+   "juft": "NJ005",
+   "kalit": "2119:uzen900|840",
+   "turlar": [
+    "A1a"
+   ],
+   "1": "keyin"
+  },
+  "N071": {
+   "juft": "NJ040",
+   "kalit": "2119:uzen900|564",
+   "turlar": [
+    "A1a",
+    "A1b"
+   ],
+   "1": "oldin"
+  },
+  "N072": {
+   "juft": "NJ047",
+   "kalit": "2119:uzen900|608",
+   "turlar": [
+    "A1a",
+    "A1b"
+   ],
+   "1": "oldin"
+  },
+  "N073": {
+   "juft": "NJ024",
+   "kalit": "2119:uzen900|612",
+   "turlar": [
+    "A1a",
+    "A1b"
+   ],
+   "1": "keyin"
+  },
+  "N074": {
+   "juft": "NJ025",
+   "kalit": "2119:uzen900|579",
+   "turlar": [
+    "A1a",
+    "A1b"
+   ],
+   "1": "keyin"
+  },
+  "N075": {
+   "juft": "NJ039",
+   "kalit": "2119:uzen900|547",
+   "turlar": [
+    "A1a",
+    "A1b"
+   ],
+   "1": "oldin"
+  },
+  "N076": {
+   "juft": "NJ012",
+   "kalit": "2119:uzen900|515",
+   "turlar": [
+    "A1a",
+    "A1b"
+   ],
+   "1": "keyin"
+  },
+  "N077": {
+   "juft": "NJ002",
+   "kalit": "2119:uzen900|132",
+   "turlar": [
+    "A1a"
+   ],
+   "1": "keyin"
+  },
+  "N078": {
+   "juft": "NJ045",
+   "kalit": "2119:uzen900|602",
+   "turlar": [
+    "A1a",
+    "A1b"
+   ],
+   "1": "oldin"
+  },
+  "N079": {
+   "juft": "NJ052",
+   "kalit": "2119:uzen900|610",
+   "turlar": [
+    "A1a",
+    "A1b"
+   ],
+   "1": "oldin"
+  },
+  "N080": {
+   "juft": "NJ038",
+   "kalit": "2119:inkor_dev|179",
+   "turlar": [
+    "A1a"
+   ],
+   "1": "keyin"
+  },
+  "N081": {
+   "juft": "NJ057",
+   "kalit": "2119:uzen900|574",
+   "turlar": [
+    "A1a",
+    "A1b"
+   ],
+   "1": "oldin"
+  },
+  "N082": {
+   "juft": "NJ060",
+   "kalit": "2119:inkor_dev|78",
+   "turlar": [
+    "A1a",
+    "A1b"
+   ],
+   "1": "keyin"
+  },
+  "N083": {
+   "juft": "NJ021",
+   "kalit": "2119:uzen900|195",
+   "turlar": [
+    "A1a"
+   ],
+   "1": "oldin"
+  },
+  "N084": {
+   "juft": "NJ001",
+   "kalit": "2119:uzen900|580",
+   "turlar": [
+    "A1a",
+    "A1b"
+   ],
+   "1": "keyin"
+  },
+  "N085": {
+   "juft": "NJ030",
+   "kalit": "2119:uzen900|631",
+   "turlar": [
+    "A1a",
+    "A1b"
+   ],
+   "1": "keyin"
+  },
+  "N086": {
+   "juft": "NJ020",
+   "kalit": "2119:uzen900|622",
+   "turlar": [
+    "A1a",
+    "A1b"
+   ],
+   "1": "keyin"
+  },
+  "N087": {
+   "juft": "NJ016",
+   "kalit": "2119:inkor_dev|109",
+   "turlar": [
+    "A1a"
+   ],
+   "1": "keyin"
+  },
+  "N088": {
+   "juft": "NJ008",
+   "kalit": "2119:uzen900|676",
+   "turlar": [
+    "A1a",
+    "A1b"
+   ],
+   "1": "keyin"
+  },
+  "N089": {
+   "juft": "NJ026",
+   "kalit": "2119:uzen900|603",
+   "turlar": [
+    "A1a",
+    "A1b"
+   ],
+   "1": "oldin"
+  },
+  "N090": {
+   "juft": "NJ014",
+   "kalit": "2119:uzen900|534",
+   "turlar": [
+    "A1a",
+    "A1b"
+   ],
+   "1": "keyin"
+  },
+  "N091": {
+   "juft": "NJ044",
+   "kalit": "2119:uzen900|567",
+   "turlar": [
+    "A1a",
+    "A1b"
+   ],
+   "1": "keyin"
+  },
+  "N092": {
+   "juft": "NJ019",
+   "kalit": "2119:uzen900|504",
+   "turlar": [
+    "A1a",
+    "A1b"
+   ],
+   "1": "keyin"
+  },
+  "N093": {
+   "juft": "NJ029",
+   "kalit": "2119:uzen900|662",
+   "turlar": [
+    "A1a",
+    "A1b"
+   ],
+   "1": "oldin"
+  },
+  "N094": {
+   "juft": "NJ042",
+   "kalit": "2119:uzen900|681",
+   "turlar": [
+    "A1a",
+    "A1b"
+   ],
+   "1": "keyin"
+  },
+  "N095": {
+   "juft": "NJ028",
+   "kalit": "2119:uzen900|657",
+   "turlar": [
+    "A1a",
+    "A1b"
+   ],
+   "1": "oldin"
+  },
+  "N096": {
+   "juft": "NJ049",
+   "kalit": "2119:uzen900|607",
+   "turlar": [
+    "A1a",
+    "A1b"
+   ],
+   "1": "oldin"
+  },
+  "N097": {
+   "juft": "NJ018",
+   "kalit": "2119:uzen900|618",
+   "turlar": [
+    "A1a",
+    "A1b"
+   ],
+   "1": "keyin"
+  },
+  "N098": {
+   "juft": "NJ034",
+   "kalit": "2119:uzen900|656",
+   "turlar": [
+    "A1a",
+    "A1b"
+   ],
+   "1": "oldin"
+  },
+  "N099": {
+   "juft": "NJ059",
+   "kalit": "2119:uzen900|513",
+   "turlar": [
+    "A1a",
+    "A1b"
+   ],
+   "1": "keyin"
+  },
+  "N100": {
+   "juft": "NJ055",
+   "kalit": "2119:uzen900|571",
+   "turlar": [
+    "A1a",
+    "A1b"
+   ],
+   "1": "oldin"
+  },
+  "N101": {
+   "juft": "NJ010",
+   "kalit": "2119:uzen900|619",
+   "turlar": [
+    "A1a",
+    "A1b"
+   ],
+   "1": "oldin"
+  },
+  "N102": {
+   "juft": "NJ036",
+   "kalit": "2119:uzen900|440",
+   "turlar": [
+    "A1a"
+   ],
+   "1": "oldin"
+  },
+  "N103": {
+   "juft": "NJ056",
+   "kalit": "2119:uzen900|41",
+   "turlar": [
+    "A1a"
+   ],
+   "1": "oldin"
+  },
+  "N104": {
+   "juft": "NJ032",
+   "kalit": "2119:uzen900|170",
+   "turlar": [
+    "A1a"
+   ],
+   "1": "keyin"
+  },
+  "N105": {
+   "juft": "NJ027",
+   "kalit": "2119:uzen900|510",
+   "turlar": [
+    "A1a",
+    "A1b"
+   ],
+   "1": "keyin"
+  },
+  "N106": {
+   "juft": "NJ051",
+   "kalit": "2119:inkor_dev|41",
+   "turlar": [
+    "A1a",
+    "A1b"
+   ],
+   "1": "oldin"
+  },
+  "N107": {
+   "juft": "NJ015",
+   "kalit": "2119:uzen900|448",
+   "turlar": [
+    "A1a"
+   ],
+   "1": "oldin"
+  },
+  "N108": {
+   "juft": "NJ023",
+   "kalit": "2119:uzen900|633",
+   "turlar": [
+    "A1a",
+    "A1b"
+   ],
+   "1": "oldin"
+  },
+  "N109": {
+   "juft": "NJ046",
+   "kalit": "2119:uzen900|566",
+   "turlar": [
+    "A1a",
+    "A1b"
+   ],
+   "1": "oldin"
+  },
+  "N110": {
+   "juft": "NJ041",
+   "kalit": "2119:uzen900|520",
+   "turlar": [
+    "A1a"
+   ],
+   "1": "oldin"
+  },
+  "N111": {
+   "juft": "NJ033",
+   "kalit": "2119:uzen900|66",
+   "turlar": [
+    "A1a"
+   ],
+   "1": "oldin"
+  },
+  "N112": {
+   "juft": "NJ054",
+   "kalit": "2119:inkor_dev|264",
+   "turlar": [
+    "A1a"
+   ],
+   "1": "keyin"
+  },
+  "N113": {
+   "juft": "NJ009",
+   "kalit": "2119:uzen900|537",
+   "turlar": [
+    "A1a",
+    "A1b"
+   ],
+   "1": "oldin"
+  },
+  "N114": {
+   "juft": "NJ048",
+   "kalit": "2119:uzen900|592",
+   "turlar": [
+    "A1a",
+    "A1b"
+   ],
+   "1": "keyin"
+  },
+  "N115": {
+   "juft": "NJ037",
+   "kalit": "2119:uzen900|508",
+   "turlar": [
+    "A1a",
+    "A1b"
+   ],
+   "1": "keyin"
+  },
+  "N116": {
+   "juft": "NJ017",
+   "kalit": "2119:uzen900|78",
+   "turlar": [
+    "A1a"
+   ],
+   "1": "keyin"
+  },
+  "N117": {
+   "juft": "NJ011",
+   "kalit": "2119:inkor_dev|250",
+   "turlar": [
+    "A1a"
+   ],
+   "1": "keyin"
+  },
+  "N118": {
+   "juft": "NJ050",
+   "kalit": "2119:uzen900|565",
+   "turlar": [
+    "A1a",
+    "A1b"
+   ],
+   "1": "oldin"
+  },
+  "N119": {
+   "juft": "NJ006",
+   "kalit": "2119:inkor_dev|193",
+   "turlar": [
+    "A1a",
+    "A5a"
+   ],
+   "1": "keyin"
+  },
+  "N120": {
+   "juft": "NJ004",
+   "kalit": "2119:inkor_dev|83",
+   "turlar": [
+    "A1a"
+   ],
+   "1": "oldin"
+  }
+ }
+}
